@@ -11,6 +11,8 @@
             android:id="@+id/customView"
             android:layout_width="match_parent"
             android:layout_height="150dp"
+            app:square_color="@color/squareColor"
+            app:square_size="@dimen/square_size"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
