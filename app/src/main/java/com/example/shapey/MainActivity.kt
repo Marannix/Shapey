@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        val customView = findViewById<CustomView>(R.id.customView)
-        val customDottedView = findViewById<DottedCircle>(R.id.customDottedView)
-//
-        customDottedView.outlineProvider = ViewOutlineProvider.BACKGROUND
-        customDottedView.clipToOutline = true
+//        val customDottedView = findViewById<DottedCircle>(R.id.customDottedView)
+////
+//        customDottedView.outlineProvider = ViewOutlineProvider.BACKGROUND
+//        customDottedView.clipToOutline = true
 //        swapColorButton.setOnClickListener {
 //            customView.swapColor()
 //        }
