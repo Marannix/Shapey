@@ -4,6 +4,7 @@
 
 ```
 - https://dribbble.com/shots/5558321-Money-Management-Dashboard/attachments
+- https://dribbble.com/shots/8420817-Fitness-Companion-Mobile-App/attachments/731145?mode=media
 ```
 
 ### What does this project do?
