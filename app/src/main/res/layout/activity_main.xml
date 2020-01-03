@@ -12,6 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             app:square_color="@color/squareColor"
+            android:visibility="invisible"
             app:square_size="150dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -22,10 +23,21 @@
             android:id="@+id/swapColorButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/customView"
             android:text="SWAP COLOR"
+    />
+
+    <com.example.shapey.DottedCircle
+            android:id="@+id/customDottedView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
     />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
